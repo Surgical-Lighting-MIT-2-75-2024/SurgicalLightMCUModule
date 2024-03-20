@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Modules_SurgicalLighting")(type "KiCad")(uri "${SURGICAL_LIGHTING_LIBRARY_TEMPLATE_DIR}/Libraries/Modules_SurgicalLighting.pretty")(options "")(descr ""))
+)
