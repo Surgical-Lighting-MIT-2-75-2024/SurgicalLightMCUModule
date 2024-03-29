@@ -2047,7 +2047,7 @@
 			(at 76.2 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(hide yes)
 			)
@@ -2056,7 +2056,7 @@
 			(at 76.2 103.886 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 			)
 		)
@@ -2312,7 +2312,7 @@
 			(at 127 99.06 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(hide yes)
 			)
@@ -2321,7 +2321,7 @@
 			(at 127 91.186 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 			)
 		)
@@ -2382,7 +2382,7 @@
 			(at 78.74 110.4899 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
@@ -2391,7 +2391,7 @@
 			(at 78.74 113.0299 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
@@ -2482,7 +2482,7 @@
 			(at 76.2 121.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(hide yes)
 			)
@@ -2491,7 +2491,7 @@
 			(at 76.2 119.634 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 			)
 		)
@@ -2552,7 +2552,7 @@
 			(at 110.49 121.9199 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
@@ -2561,7 +2561,7 @@
 			(at 110.49 124.4599 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
@@ -2946,7 +2946,7 @@
 			(at 127 138.43 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(hide yes)
 			)
@@ -2955,7 +2955,7 @@
 			(at 127 136.144 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 			)
 		)
@@ -3309,7 +3309,7 @@
 			(at 215.9 100.33 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(hide yes)
 			)
@@ -3318,7 +3318,7 @@
 			(at 215.9 97.536 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 			)
 		)
@@ -3575,7 +3575,7 @@
 			(at 129.1941 93.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)
@@ -3584,7 +3584,7 @@
 			(at 129.1941 96.52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
 				(justify left)
 			)

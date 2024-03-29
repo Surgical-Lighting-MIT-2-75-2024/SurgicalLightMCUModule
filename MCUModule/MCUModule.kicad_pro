@@ -643,8 +643,8 @@
     ]
   ],
   "text_variables": {
-    "AUTHOR": "Winnie Szeto",
+    "AUTHOR": "Edit Name in Schematic setup -> Text Variables",
     "PROJECT_REVISION": "A01",
-    "PROJECT_TITLE": "MCU Module"
+    "PROJECT_TITLE": "Template Project"
   }
 }
