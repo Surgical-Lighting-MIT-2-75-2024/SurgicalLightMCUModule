@@ -1711,7 +1711,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 181.5766 84.5821 90)
 			(effects
 				(font
@@ -1719,7 +1719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 181.61 86.36 0)
 			(effects
 				(font
@@ -1773,6 +1773,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8d31e91f-1b00-4313-b199-00542b6ee744")
 		)
@@ -1809,7 +1818,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,20k"
+		(property "Value" "20k"
 			(at 212.09 89.916 0)
 			(effects
 				(font
@@ -1817,7 +1826,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 215.9 90.17 0)
 			(effects
 				(font
@@ -1867,6 +1876,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT20K0CT-ND"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -1976,7 +1994,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 173.9566 84.5821 90)
 			(effects
 				(font
@@ -1984,7 +2002,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 173.99 86.36 0)
 			(effects
 				(font
@@ -2038,6 +2056,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e7bb962-d3a1-476f-9505-262fa7f80ed9")
 		)
@@ -2074,7 +2101,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,20k"
+		(property "Value" "20k"
 			(at 147.066 105.664 90)
 			(effects
 				(font
@@ -2082,7 +2109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.24 106.68 0)
 			(effects
 				(font
@@ -2132,6 +2159,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT20K0CT-ND"
+			(at 142.24 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2243,7 +2279,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,100nF,50V,X7R "
+		(property "Value" "100nF 50V,X7R "
 			(at 78.74 113.0299 0)
 			(effects
 				(font
@@ -2252,7 +2288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 76.2 111.76 0)
 			(effects
 				(font
@@ -2302,6 +2338,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1003-1-ND"
+			(at 76.2 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2411,7 +2456,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 189.1966 84.5821 90)
 			(effects
 				(font
@@ -2419,7 +2464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -2469,6 +2514,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2509,7 +2563,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 204.4366 84.5821 90)
 			(effects
 				(font
@@ -2517,7 +2571,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 204.47 86.36 0)
 			(effects
 				(font
@@ -2567,6 +2621,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 204.47 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2607,7 +2670,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 196.8166 84.5821 90)
 			(effects
 				(font
@@ -2615,7 +2678,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 196.85 86.36 0)
 			(effects
 				(font
@@ -2665,6 +2728,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 196.85 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2774,7 +2846,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 166.3366 84.5821 90)
 			(effects
 				(font
@@ -2782,7 +2854,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 166.37 86.36 0)
 			(effects
 				(font
@@ -2836,6 +2908,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 166.37 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ec303978-47b3-4552-9c44-0e7c02e2d91f")
 		)
@@ -2872,7 +2953,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,20k"
+		(property "Value" "20k"
 			(at 147.066 118.364 90)
 			(effects
 				(font
@@ -2880,7 +2961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.24 119.38 0)
 			(effects
 				(font
@@ -2930,6 +3011,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT20K0CT-ND"
+			(at 142.24 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -2970,7 +3060,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,20k"
+		(property "Value" "20k"
 			(at 147.066 108.204 90)
 			(effects
 				(font
@@ -2978,7 +3068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -3028,6 +3118,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT20K0CT-ND"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3137,7 +3236,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,20k"
+		(property "Value" "20k"
 			(at 147.066 103.124 90)
 			(effects
 				(font
@@ -3145,7 +3244,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.24 104.14 0)
 			(effects
 				(font
@@ -3195,6 +3294,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT20K0CT-ND"
+			(at 142.24 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3235,7 +3343,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,20k"
+		(property "Value" "20k"
 			(at 147.066 113.284 90)
 			(effects
 				(font
@@ -3243,7 +3351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.24 114.3 0)
 			(effects
 				(font
@@ -3293,6 +3401,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT20K0CT-ND"
+			(at 142.24 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3363,6 +3480,15 @@
 			)
 		)
 		(property "Description" "8-bit serial in/out Shift Register 3-State Outputs"
+			(at 127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-33112-5-ND"
 			(at 127 111.76 0)
 			(effects
 				(font
@@ -3449,7 +3575,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 158.7166 84.5821 90)
 			(effects
 				(font
@@ -3457,7 +3583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 158.75 86.36 0)
 			(effects
 				(font
@@ -3511,6 +3637,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "251af51b-13ec-4fd8-81fc-82d4cb785e93")
 		)
@@ -3547,7 +3682,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,20k"
+		(property "Value" "20k"
 			(at 147.066 115.824 90)
 			(effects
 				(font
@@ -3555,7 +3690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.24 116.84 0)
 			(effects
 				(font
@@ -3605,6 +3740,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT20K0CT-ND"
+			(at 142.24 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3645,7 +3789,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,20k"
+		(property "Value" "20k"
 			(at 147.066 100.584 90)
 			(effects
 				(font
@@ -3653,7 +3797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.24 101.6 0)
 			(effects
 				(font
@@ -3703,6 +3847,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT20K0CT-ND"
+			(at 142.24 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -3743,7 +3896,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,20k"
+		(property "Value" "20k"
 			(at 147.066 110.744 90)
 			(effects
 				(font
@@ -3751,7 +3904,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 142.24 111.76 0)
 			(effects
 				(font
@@ -3801,6 +3954,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT20K0CT-ND"
+			(at 142.24 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)

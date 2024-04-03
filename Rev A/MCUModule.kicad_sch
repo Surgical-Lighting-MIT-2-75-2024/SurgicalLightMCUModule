@@ -9364,6 +9364,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "B5819WS-TPMSCT-ND"
+			(at 193.04 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af1b9c31-dec4-4944-9ee8-f261cad9abf4")
 		)
@@ -9497,6 +9506,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-1391-5-ND"
+			(at 128.27 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "ec95fc8a-ae64-4544-8953-c04c91f7feb6")
 		)
@@ -9602,6 +9620,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "1727-3825-1-ND"
+			(at 110.49 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01bf1cff-5d65-4f10-8a67-f47d29855338")
 		)
@@ -9663,6 +9690,15 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 121.92 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-3825-1-ND"
 			(at 121.92 185.42 0)
 			(effects
 				(font
@@ -9740,6 +9776,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "1727-3825-1-ND"
+			(at 114.3 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8acb271a-cc01-4687-85b4-929d59de29f0")
 		)
@@ -9772,7 +9817,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,1k"
+		(property "Value" "1k"
 			(at 242.57 152.4 90)
 			(effects
 				(font
@@ -9780,7 +9825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 242.57 154.94 0)
 			(effects
 				(font
@@ -9830,6 +9875,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT1K00CT-ND"
+			(at 242.57 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -9902,6 +9956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 62.23 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "284335d0-cb4f-4f10-ab29-709c4f8b1e47")
 		)
@@ -9958,6 +10021,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 229.87 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-1391-5-ND"
 			(at 229.87 154.94 0)
 			(effects
 				(font
@@ -10071,6 +10143,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "1727-3825-1-ND"
+			(at 74.93 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "27df5122-8fad-4fb0-93a4-74b9daa9325b")
 		)
@@ -10105,7 +10186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 157.48 78.7401 0)
 			(effects
 				(font
@@ -10114,7 +10195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 80.01 0)
 			(effects
 				(font
@@ -10164,6 +10245,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10229,6 +10319,15 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 82.55 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-3825-1-ND"
 			(at 82.55 185.42 0)
 			(effects
 				(font
@@ -10437,6 +10536,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "2129-NJM7805FA-ND"
+			(at 190.5 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33da6f7d-e5b3-4f80-bec5-4fb1c2941eee")
 		)
@@ -10538,7 +10646,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,1uF,50V,X7R "
+		(property "Value" "1uF 50V,X7R "
 			(at 191.516 45.72 0)
 			(effects
 				(font
@@ -10547,7 +10655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 203.2 43.18 0)
 			(effects
 				(font
@@ -10597,6 +10705,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1029-1-ND"
+			(at 203.2 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10736,6 +10853,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "1727-3825-1-ND"
+			(at 125.73 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a96ca3e4-24d9-43ea-afd9-4dc0a03127ff")
 		)
@@ -10770,7 +10896,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,4.7k"
+		(property "Value" "4.7k"
 			(at 114.3 135.8899 0)
 			(effects
 				(font
@@ -10779,7 +10905,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.76 134.62 0)
 			(effects
 				(font
@@ -10829,6 +10955,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT4K70CT-ND"
+			(at 111.76 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -10892,6 +11027,15 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
+			(at 226.06 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "TC74HC14APF-ND"
 			(at 226.06 68.58 0)
 			(effects
 				(font
@@ -10970,7 +11114,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 27.94 88.8999 0)
 			(effects
 				(font
@@ -10979,7 +11123,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 25.4 87.63 0)
 			(effects
 				(font
@@ -11029,6 +11173,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 25.4 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11092,6 +11245,15 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
+			(at 209.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "TC74HC14APF-ND"
 			(at 209.55 82.55 0)
 			(effects
 				(font
@@ -11300,7 +11462,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,1uF,50V,X7R "
+		(property "Value" "1uF 50V,X7R "
 			(at 248.92 160.0199 0)
 			(effects
 				(font
@@ -11309,7 +11471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 246.38 158.75 0)
 			(effects
 				(font
@@ -11359,6 +11521,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1029-1-ND"
+			(at 246.38 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11562,6 +11733,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 41.91 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28bebc72-0fbe-4bfc-83d7-78c9f94b5bc8")
 		)
@@ -11659,7 +11839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,1uF,50V,X7R "
+		(property "Value" "1uF 50V,X7R "
 			(at 248.92 135.8899 0)
 			(effects
 				(font
@@ -11668,7 +11848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 246.38 134.62 0)
 			(effects
 				(font
@@ -11718,6 +11898,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1029-1-ND"
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -11821,7 +12010,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,0"
+		(property "Value" "0"
 			(at 217.17 46.9899 0)
 			(effects
 				(font
@@ -11830,7 +12019,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 214.63 45.72 0)
 			(effects
 				(font
@@ -11884,6 +12073,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "RMCF0805ZT0R00CT-ND"
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fe194cb7-96af-4327-a53c-7d015df599bf")
 		)
@@ -11918,7 +12116,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,27k"
+		(property "Value" "27k"
 			(at 156.21 130.8099 0)
 			(effects
 				(font
@@ -11927,7 +12125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 153.67 129.54 0)
 			(effects
 				(font
@@ -11977,6 +12175,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT27K0CT-ND"
+			(at 153.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12108,6 +12315,15 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 118.11 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-3825-1-ND"
 			(at 118.11 185.42 0)
 			(effects
 				(font
@@ -12345,7 +12561,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,100nF,50V,X7R "
+		(property "Value" "100nF 50V,X7R "
 			(at 80.01 139.6999 0)
 			(effects
 				(font
@@ -12354,7 +12570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 77.47 138.43 0)
 			(effects
 				(font
@@ -12404,6 +12620,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1003-1-ND"
+			(at 77.47 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12475,6 +12700,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "B5819WS-TPMSCT-ND"
+			(at 181.61 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e1ffc5f0-dde2-4bb3-bab7-6e2f847deb60")
 		)
@@ -12537,6 +12771,15 @@
 			)
 		)
 		(property "Description" "8-channel analog multiplexer/demultiplexer, DIP-16/SOIC-16/TSSOP-16"
+			(at 231.14 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-12810-5-ND"
 			(at 231.14 34.29 0)
 			(effects
 				(font
@@ -12621,7 +12864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 156.21 138.4299 0)
 			(effects
 				(font
@@ -12630,7 +12873,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 153.67 137.16 0)
 			(effects
 				(font
@@ -12680,6 +12923,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12745,6 +12997,15 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 78.74 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-3825-1-ND"
 			(at 78.74 185.42 0)
 			(effects
 				(font
@@ -12852,7 +13113,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 114.3 143.5099 0)
 			(effects
 				(font
@@ -12861,7 +13122,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 111.76 142.24 0)
 			(effects
 				(font
@@ -12911,6 +13172,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 111.76 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -12974,6 +13244,15 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
+			(at 209.55 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "TC74HC14APF-ND"
 			(at 209.55 68.58 0)
 			(effects
 				(font
@@ -13085,6 +13364,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "B5819WS-TPMSCT-ND"
+			(at 170.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a4d399d1-0cfe-4ddb-bd5c-e35a494dfa84")
 		)
@@ -13146,6 +13434,15 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 71.12 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-3825-1-ND"
 			(at 71.12 185.42 0)
 			(effects
 				(font
@@ -13223,6 +13520,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "1727-3825-1-ND"
+			(at 106.68 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "377dfe69-da2c-4093-95ac-c0f3bb0fae61")
 		)
@@ -13282,6 +13588,15 @@
 			)
 		)
 		(property "Description" "40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323"
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "B5819WS-TPMSCT-ND"
 			(at 182.88 71.12 0)
 			(effects
 				(font
@@ -13350,6 +13665,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 41.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-1391-5-ND"
 			(at 41.91 139.7 0)
 			(effects
 				(font
@@ -13455,6 +13779,15 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 5.0Vr, SMA(DO-214AC)"
+			(at 86.36 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1727-3825-1-ND"
 			(at 86.36 185.42 0)
 			(effects
 				(font
@@ -13597,6 +13930,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "SMAZ15-FDICT-ND"
+			(at 25.4 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8f4dcb2-bc86-42f0-bb30-004fdfc78446")
 		)
@@ -13695,7 +14037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,100nF,50V,X7R "
+		(property "Value" "100nF 50V,X7R "
 			(at 249.428 22.606 0)
 			(effects
 				(font
@@ -13704,7 +14046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 262.89 24.13 0)
 			(effects
 				(font
@@ -13754,6 +14096,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1003-1-ND"
+			(at 262.89 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -13886,6 +14237,15 @@
 			)
 		)
 		(property "Description" "Low-Power, Quad-Operational Amplifiers, DIP-14/SOIC-14/SSOP-14"
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "296-1391-5-ND"
 			(at 72.39 138.43 0)
 			(effects
 				(font
@@ -14063,6 +14423,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "TC74HC14APF-ND"
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "243bba17-3301-4c05-87e3-d540daccd10b")
 		)
@@ -14166,6 +14535,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "B5819WS-TPMSCT-ND"
+			(at 170.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27860b44-2a6d-476b-a296-472d13ce5d74")
 		)
@@ -14225,6 +14603,15 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
+			(at 209.55 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "TC74HC14APF-ND"
 			(at 209.55 97.79 0)
 			(effects
 				(font
@@ -14331,6 +14718,15 @@
 			)
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash"
+			(at 113.03 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "2648-SC0915CT-ND"
 			(at 113.03 63.5 0)
 			(effects
 				(font
@@ -14526,6 +14922,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "497-11320-5-ND"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e54f21fd-0b6c-4742-aece-cf8cfef983b4")
 		)
@@ -14561,7 +14966,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,1k"
+		(property "Value" "1k"
 			(at 242.57 128.27 90)
 			(effects
 				(font
@@ -14569,7 +14974,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 242.57 130.81 0)
 			(effects
 				(font
@@ -14623,6 +15028,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "RMCF0805FT1K00CT-ND"
+			(at 242.57 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ff8a1ee5-9725-40fa-b4e7-d35ddd1e0448")
 		)
@@ -14655,7 +15069,7 @@
 				)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 140.97 130.81 90)
 			(effects
 				(font
@@ -14663,7 +15077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 140.97 133.35 0)
 			(effects
 				(font
@@ -14713,6 +15127,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 140.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -14750,7 +15173,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,10k"
+		(property "Value" "10k"
 			(at 138.176 137.16 0)
 			(effects
 				(font
@@ -14759,7 +15182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 137.16 137.16 0)
 			(effects
 				(font
@@ -14809,6 +15232,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT10K0CT-ND"
+			(at 137.16 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -14912,7 +15344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,33k"
+		(property "Value" "33k"
 			(at 157.48 71.1201 0)
 			(effects
 				(font
@@ -14921,7 +15353,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 160.02 72.39 0)
 			(effects
 				(font
@@ -14971,6 +15403,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "RMCF0805FT33K0CT-ND"
+			(at 160.02 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -15043,6 +15484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 101.6 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "19bb6a02-f0cb-41c1-a3c4-07176e3cf0e1")
 		)
@@ -15099,6 +15549,15 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
+			(at 209.55 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "TC74HC14APF-ND"
 			(at 209.55 111.76 0)
 			(effects
 				(font
@@ -15203,6 +15662,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 95.25 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "2057-PH2-14-UA-ND"
 			(at 95.25 175.26 0)
 			(effects
 				(font
@@ -15444,6 +15912,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "296-1391-5-ND"
+			(at 229.87 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "ec95fc8a-ae64-4544-8953-c04c91f7feba")
 		)
@@ -15677,6 +16154,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "B5819WS-TPMSCT-ND"
+			(at 194.31 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1f9082d-e292-42be-862a-89376968b331")
 		)
@@ -15710,7 +16196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,1uF,50V,X7R "
+		(property "Value" "1uF 50V,X7R "
 			(at 169.926 46.736 0)
 			(effects
 				(font
@@ -15719,7 +16205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 181.61 43.18 0)
 			(effects
 				(font
@@ -15769,6 +16255,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1029-1-ND"
+			(at 181.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -15840,6 +16335,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" "AE10399-ND"
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "7acbad62-de79-4dc8-900a-bbd3374eb210")
 		)
@@ -15894,7 +16398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0805,100nF,50V,X7R "
+		(property "Value" "100nF 50V,X7R "
 			(at 234.188 94.742 0)
 			(effects
 				(font
@@ -15903,7 +16407,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 247.65 96.52 0)
 			(effects
 				(font
@@ -15953,6 +16457,15 @@
 			(effects
 				(font
 					(size 0.0254 0.0254)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "1276-1003-1-ND"
+			(at 247.65 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -16025,6 +16538,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey PN" ""
+			(at 30.48 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8dec59b-3054-431f-888f-99de5e6e8cc2")
 		)
@@ -16083,6 +16605,15 @@
 			)
 		)
 		(property "Description" "Hex inverter schmitt trigger"
+			(at 257.81 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey PN" "TC74HC14APF-ND"
 			(at 257.81 96.52 0)
 			(effects
 				(font
