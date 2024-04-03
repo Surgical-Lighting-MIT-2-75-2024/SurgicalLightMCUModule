@@ -521,140 +521,6 @@
 				)
 			)
 		)
-		(symbol "jlcpcb-basic-resistor:0805,0"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 0.762 0.508 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "0805,0"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "R_0805_2012Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0805W8F0000T5E_C17477.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1% 125mW Thick Film Resistors 150V   800ppm    -55    155   0   0805 Chip Resistor - Surface Mount ROHS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C17477"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.0254 0.0254)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFG" "UNI-ROYAL(Uniroyal Elec)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.0254 0.0254)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFGPN" "0805W8F0000T5E"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.0254 0.0254)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0805,0_0_0"
-				(rectangle
-					(start -0.762 1.778)
-					(end 0.762 -1.778)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.762)
-					(name "~"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "jlcpcb-basic-resistor:0805,10k"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1250,7 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 116.84) (xy 107.95 120.65)
+			(xy 107.95 116.84) (xy 107.95 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1487,16 +1353,6 @@
 			(type default)
 		)
 		(uuid "83037b32-3359-4868-91b8-a0829c3c2c00")
-	)
-	(wire
-		(pts
-			(xy 107.95 125.73) (xy 107.95 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83b07765-0249-4a35-9297-6fbfa3c8bb83")
 	)
 	(wire
 		(pts
@@ -2539,107 +2395,6 @@
 		)
 	)
 	(symbol
-		(lib_id "jlcpcb-basic-resistor:0805,0")
-		(at 107.95 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d177290-9f56-4c41-afb5-6cb1ebbef22c")
-		(property "Reference" "R19"
-			(at 110.49 121.9199 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0805,0"
-			(at 110.49 124.4599 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "R_0805_2012Metric"
-			(at 107.95 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110251730_UNI-ROYAL-Uniroyal-Elec-0805W8F0000T5E_C17477.pdf"
-			(at 107.95 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1% 125mW Thick Film Resistors 150V   800ppm    -55    155   0   0805 Chip Resistor - Surface Mount ROHS"
-			(at 107.95 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C17477"
-			(at 107.95 123.19 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFG" "UNI-ROYAL(Uniroyal Elec)"
-			(at 107.95 123.19 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFGPN" "0805W8F0000T5E"
-			(at 107.95 123.19 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9d2a378f-20df-4b69-b14a-4b0ca1821084")
-		)
-		(pin "1"
-			(uuid "7ba2bbda-a67c-4f17-bca7-36be44adaa8d")
-		)
-		(instances
-			(project "MCUModule"
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496/c82070cb-20dc-4a3e-92d2-ca1724b01eaa"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/352d7abe-fc72-4473-8b68-62eecf44f496/7d8e5f80-7b11-4de4-ab98-83d2b8c6b4e1"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "jlcpcb-basic-resistor:0805,10k")
 		(at 189.23 86.36 90)
 		(unit 1)
@@ -3589,7 +3344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 127 111.76 0)
 			(effects
 				(font
