@@ -1,0 +1,22 @@
+#ifdef REV_A01
+
+uint8_t DISPLAY_BITS[10] = {
+  0b11111100, //0
+  0b00001100, //1
+  0b11011010, //2
+  0b10011110, //3
+  0b00101110, //4
+  0b10110110, //5
+  0b11110110, //6
+  0b00011100, //7
+  0b11111110, //8
+  0b10111110  //9
+};
+#define DISPLAY_BITS_COLON 0b11
+#define DISPLAY_BITS_AC_PWR 1 << 6
+#define DISPLAY_BITS_SOLAR_PWR 1 << 5
+#define DISPLAY_BITS_BATTERY_PWR 1 << 4
+#define DISPLAY_BITS_WARNING 1 << 3
+#define DISPLAY_BITS_FAILURE 1 << 2
+
+#endif
