@@ -16,4 +16,10 @@
 
 #define BRIGHTNESS_POT_CHANNEL 3
 
+#define RELAY 11
+
+#define PWM1 7
+#define WallBadINT 12
+#define WallSense 27
+
 #endif

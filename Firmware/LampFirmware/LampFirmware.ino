@@ -19,6 +19,17 @@ void initMux(){
   pinMode(MUX_ADC, INPUT);
 }
 
+void BadWallPowerISR(){
+  digitalWrite(RELAY, LOW);
+}
+
+void initPowerModule(){
+  pinMode(RELAY, OUTPUT);
+  pinMode(PWM1, OUTPUT);
+  attachInterrupt(digitalPinToInterrupt(WallBadINT), BadWallPowerISR, FALLING);
+  pinMode(WallSense, INPUT);
+}
+
 void DisplayUpdate(uint8_t hours, uint8_t minutes, uint8_t batteryPercentage, powerSource PowerSourceToDisplay, uint8_t systemWarning, uint8_t systemFailure){
   digitalWrite(RCLK_DISPLAY, HIGH);
   shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, 0xF >> ((uint8_t) batteryPercentage / 10));
@@ -49,11 +60,20 @@ void setup() {
   Serial.begin(9600);
   initDisplay();
   initMux();
+  initPowerModule();
+  digitalWrite(RELAY, HIGH);
 }
 
 void loop() {
-  Serial.print("Brightness command: ");
+  Serial.print("WallVoltage: ");
+  Serial.print(analogRead(WallSense));
+  Serial.print(", Brightness command: ");
   Serial.print(readMux(BRIGHTNESS_POT_CHANNEL));
   Serial.println();
+  analogWrite(PWM1,readMux(BRIGHTNESS_POT_CHANNEL)/4);
 
+  if((float) analogRead(WallSense) * 43/10 * 3.3 / 1024 > 10){
+    digitalWrite(RELAY, HIGH);
+  }
+  delay(100);
 }
