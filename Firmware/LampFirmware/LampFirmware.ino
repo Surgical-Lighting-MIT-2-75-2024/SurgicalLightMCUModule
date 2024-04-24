@@ -62,6 +62,7 @@ void setup() {
   initMux();
   initPowerModule();
   digitalWrite(RELAY, HIGH);
+  digitalWrite(OE_DISPLAY, HIGH);
 }
 
 void loop() {
@@ -71,9 +72,20 @@ void loop() {
   Serial.print(readMux(BRIGHTNESS_POT_CHANNEL));
   Serial.println();
   analogWrite(PWM1,readMux(BRIGHTNESS_POT_CHANNEL)/4);
-
+//  DisplayUpdate(2, 12, 50, Wall, 1, 1);
+//
   if((float) analogRead(WallSense) * 43/10 * 3.3 / 1024 > 10){
     digitalWrite(RELAY, HIGH);
   }
+//  digitalWrite(OE_DISPLAY, HIGH);
+//digitalWrite(RCLK_DISPLAY, HIGH);
+//  shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, 0);
+//  digitalWrite(RCLK_DISPLAY, LOW);
+//delay(500);
+  digitalWrite(RCLK_DISPLAY, HIGH);
+  shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, 0xFFFFFF);
+  digitalWrite(RCLK_DISPLAY, LOW);
+//  digitalWrite(OE_DISPLAY, LOW);
+// digitalWrite(OE_DISPLAY, !digitalRead(OE_DISPLAY));
   delay(100);
 }
