@@ -10,7 +10,7 @@ void initDisplay(){
   pinMode(OE_DISPLAY, OUTPUT);
   pinMode(SRCLK_DISPLAY, OUTPUT);
   pinMode(DATA_DISPLAY, OUTPUT);
-  digitalWrite(OE_DISPLAY, HIGH);
+  analogWrite(OE_DISPLAY, 200);
 }
 
 void initMux(){
@@ -32,15 +32,14 @@ void initPowerModule(){
 }
 
 void DisplayUpdate(uint8_t hours, uint8_t minutes, uint8_t batteryPercentage, powerSource PowerSourceToDisplay, uint8_t systemWarning, uint8_t systemFailure){
-  shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, 0xF >> ((uint8_t) batteryPercentage / 10));
+  digitalWrite(RCLK_DISPLAY, HIGH);
+  shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, ~ (0xFF >> ((uint8_t) ((float)batteryPercentage / 12.5))));
   shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, (DISPLAY_BITS_FAILURE * systemFailure) | (DISPLAY_BITS_WARNING * systemWarning) | PowerSourceToDisplay | DISPLAY_BITS_COLON);
   shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, DISPLAY_BITS[minutes % 10]);
   shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, DISPLAY_BITS[(uint8_t) minutes / 10]);
   shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, DISPLAY_BITS[hours % 10]);
   shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, DISPLAY_BITS[(uint8_t) hours / 10]);
-  digitalWrite(RCLK_DISPLAY, HIGH);
   digitalWrite(RCLK_DISPLAY, LOW);
-  delay(1000);
 }
 
 uint16_t readMux(uint8_t channel){
@@ -97,22 +96,15 @@ void loop() {
 }
 
 void loop() {
-  //Serial.print("WallVoltage: ");
-  //Serial.print(analogRead(WallSense));
-  //Serial.print(", Brightness command: ");
-  //Serial.print(readMux(BRIGHTNESS_POT_CHANNEL));
-  //Serial.println();
-  //analogWrite(PWM1, readMux(BRIGHTNESS_POT_CHANNEL)/4);
+  DisplayUpdate(04,20, 69,Battery, 1,1);
+  Serial.print("WallVoltage: ");
+  Serial.print(analogRead(WallSense));
+  Serial.print(", Brightness command: ");
+  Serial.print(readMux(BRIGHTNESS_POT_CHANNEL));
+  Serial.println();
+  analogWrite(PWM1, 255 - readMux(BRIGHTNESS_POT_CHANNEL)/4);
 
-  //DisplayUpdate(88,88,100,Wall, 1,1);
-  digitalWrite(RCLK_DISPLAY, HIGH);
-  shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, 0b11111111);
-  digitalWrite(RCLK_DISPLAY, LOW);
-  delay(1);
-  digitalWrite(RCLK_DISPLAY, HIGH);
-  shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, 0x0);
-  digitalWrite(RCLK_DISPLAY, LOW);
-  delay(1);
+  
 
   if((float) analogRead(WallSense) * 43/10 * 3.3 / 1024 > 10){
     digitalWrite(RELAY, HIGH);
