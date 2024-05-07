@@ -15,11 +15,13 @@
 #define MUX_ADC 26
 
 #define BRIGHTNESS_POT_CHANNEL 3
+#define SOLAR_SENSE_CHANNEL 5
 
 #define RELAY 11
 
 #define PWM1 7
 #define WallBadINT 12
 #define WallSense 27
+#define BatterySense 28
 
 #endif
