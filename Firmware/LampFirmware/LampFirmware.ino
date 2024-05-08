@@ -1,4 +1,4 @@
-#define REV_A01
+#define REV_B01
 
 #include "pinouts.h"
 #include "Display.h"
@@ -64,11 +64,18 @@ uint16_t readMux(uint8_t channel){
   return analogRead(MUX_ADC);
 }
 
-void setBuckSetpoint(uint8_t vref, uint8_t iref){
+void setBuckSetpoint(float vout, uint8_t iout){
+  uint8_t vref_bin = vout * 10 ;
   digitalWrite(RCLK_DAC, LOW);
-  shiftOut(DATA_DAC, SRCLK_DAC, LSBFIRST, iref);
-  shiftOut(DATA_DAC, SRCLK_DAC, LSBFIRST, vref);
+  shiftOut(DATA_DAC, SRCLK_DAC, LSBFIRST, 255); // current ref doesn't work. 
+  shiftOut(DATA_DAC, SRCLK_DAC, LSBFIRST, vref_bin);
   digitalWrite(RCLK_DAC, HIGH);
+}
+
+void initBuck(){
+  pinMode(RCLK_DAC, OUTPUT);
+  pinMode(DATA_DAC, OUTPUT);
+  pinMode(SRCLK_DAC, OUTPUT);
 }
 
 // Brightness command averaging function
@@ -171,10 +178,12 @@ void setup() {
   initPowerModule();
   digitalWrite(RELAY, HIGH);
   digitalWrite(OE_DISPLAY, HIGH);
+  initBuck();
 }
 
 void loop() {
   // Calculates the brightness filter.
+  setBuckSetpoint(13.5, 1);
   bc_averagingFilter();
   brightnessCommand = 255 - (brightnessAverage > 250 ? 255: brightnessAverage);
   analogWrite(PWM1, brightnessCommand);

@@ -1,4 +1,4 @@
-#ifdef REV_A01
+#if defined REV_A01 || defined REV_B01
 
 uint8_t DISPLAY_BITS[10] = {
   0b00111111, //0
