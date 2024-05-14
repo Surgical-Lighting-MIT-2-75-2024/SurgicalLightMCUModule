@@ -43,7 +43,7 @@
 #define MUX_ADC 26
 
 #define BRIGHTNESS_POT_CHANNEL 5
-#define SOLAR_SENSE_CHANNEL 2
+#define SOLAR_SENSE_CHANNEL 3
 
 #define RELAY 11
 

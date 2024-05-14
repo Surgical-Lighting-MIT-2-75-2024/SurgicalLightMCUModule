@@ -47,7 +47,7 @@ void initPowerModule(){
 
 void DisplayUpdate(uint8_t hours, uint8_t minutes, uint8_t batteryPercentage, powerSource PowerSourceToDisplay, uint8_t systemWarning, uint8_t systemFailure){
   digitalWrite(RCLK_DISPLAY, HIGH);
-  shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, ~ (0xFF >> ((uint8_t) ((float)batteryPercentage / 12.5)) + 1));
+  shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, isBattery ? ~ (0xFF >> ((uint8_t) ((float)batteryPercentage / 12.5)) + 1) : 0);
   shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, (DISPLAY_BITS_FAILURE * systemFailure) | (DISPLAY_BITS_WARNING * systemWarning) | PowerSourceToDisplay | DISPLAY_BITS_COLON);
   shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, DISPLAY_BITS[minutes % 10]);
   shiftOut(DATA_DISPLAY, SRCLK_DISPLAY, LSBFIRST, DISPLAY_BITS[(uint8_t) minutes / 10]);
@@ -182,15 +182,16 @@ void setup() {
 }
 
 void loop() {
-  // Calculates the brightness filter.
   setBuckSetpoint(13.5, 1);
+  // Calculates the brightness command, wall voltage, and battery voltage.
   bc_averagingFilter();
   brightnessCommand = 255 - (brightnessAverage > 250 ? 255: brightnessAverage);
   analogWrite(PWM1, brightnessCommand);
+  wv_averagingFilter(analogRead(WallSense) * 43/10 * 3.3 / 1024);
+  bv_averagingFilter(analogRead(BatterySense) * 43/10 * 3.3 / 1024);
   if (millis() - time_now > UPDATE_DELAY) {
     // Calculates the wall voltage from the WallSense line.
     // If it's greater than 10V, make the relay high and turn on the AC Mains indicator
-    wv_averagingFilter(analogRead(WallSense) * 43/10 * 3.3 / 1024);
     if(wallVoltage > 10){
       digitalWrite(RELAY, HIGH);
       isACMains = true;
@@ -200,24 +201,27 @@ void loop() {
   
     // Calculates the solar/mppt voltage from the SolarSense line.
     isSolar = false;
-//    solarVoltage = readMux(SOLAR_SENSE_CHANNEL) * 11 * 3.3 / 1024;
-//    if (solarVoltage > 10) {
-//      isSolar = true;
-//    } else {
-//      isSolar = false;
-//    }
+    solarVoltage = readMux(SOLAR_SENSE_CHANNEL) * 11 * 3.3 / 1024;
+    if (solarVoltage > 10) {
+      isSolar = true;
+    } else {
+      isSolar = false;
+    }
 
     // Calculates the battery voltage from the BatterySense line.
-    bv_averagingFilter(analogRead(BatterySense) * 43/10 * 3.3 / 1024);
     isBattery = batteryVoltage > 10;
     float newTimeLeft = batteryCapacityCalculation();
     timeLeft = (abs(timeLeft - newTimeLeft) > TL_NOISE_THRESHOLD) ? newTimeLeft : timeLeft;
     float batteryPercentage = (batteryVoltage - minBatteryVoltage) / (maxBatteryVoltage - minBatteryVoltage);
     Serial.print("Battery Voltage: ");
     Serial.println(batteryVoltage);
+    Serial.println(analogRead(BatterySense));
     Serial.print("Wall Voltage: ");
     Serial.println(wallVoltage);
     Serial.println(analogRead(WallSense));
+    Serial.print("Solar Voltage: ");
+    Serial.println(solarVoltage);
+    Serial.println(readMux(SOLAR_SENSE_CHANNEL));
     Serial.print("Time Left: ");
     Serial.println(timeLeft);
     Serial.print("Battery Percentage: ");
@@ -230,7 +234,7 @@ void loop() {
     Serial.println((maxPower * loadEfficiency * (brightnessCommand / 255.0)) / wallVoltage);
     
     // Updating display
-    DisplayUpdate(isBattery ? max(min(floor(timeLeft), 99), 0) : 0, isBattery ? max(min((timeLeft - floor(timeLeft)) * 60, 59), 0) : 0, isBattery ? batteryPercentage * 100 : 0, isACMains ? Wall : (isSolar ? Solar : Battery), isSysWarning, 0);
+    DisplayUpdate(isBattery ? max(min(floor(timeLeft), 99), 0) : 0, isBattery ? max(min((timeLeft - floor(timeLeft)) * 60, 59), 0) : 0, batteryPercentage * 100, isACMains ? Wall : (isSolar ? Solar : Battery), isSysWarning, 0);
     time_now = millis();
   }
 }
